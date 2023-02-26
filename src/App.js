@@ -1,11 +1,5 @@
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-     <h1>Ecome</h1>
-    </div>
-  );
+  return <div className="App text-center">React Project started</div>;
 }
 
 export default App;
