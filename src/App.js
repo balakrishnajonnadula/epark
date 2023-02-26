@@ -10,7 +10,8 @@ function App() {
   const handleDataTable = () => {
     $(document).ready(function () {
       $("#example").dataTable({
-        "bDestroy": true
+        bDestroy: true,
+        // "pageLength": 5
       });
     });
   };
@@ -19,12 +20,7 @@ function App() {
   });
   return (
     <div className="App text-center">
-      <table
-        
-        border="0"
-        className="display"
-        id="example"
-      >
+      <table border="0" className="display" id="example">
         <thead>
           <tr>
             <th>Rendering engine</th>
