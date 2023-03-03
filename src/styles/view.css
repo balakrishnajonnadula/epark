@@ -1,0 +1,21 @@
+.box{
+    height: 300;
+    width: 50%;
+   
+}
+#view{
+    display: flex;
+    background-color: antiquewhite;
+    }
+    .data{
+margin-left: 100px;
+font-size: 25px;
+
+    }
+    button{
+        width: 100%;
+        border-radius: 100px;
+    }
+    #select{
+        font-size: 20px;
+    }
