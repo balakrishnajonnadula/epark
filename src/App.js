@@ -1,24 +1,30 @@
-import { BrowserRouter, Route,  Routes } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import AddProducts from "./components/AddProducts";
-import ProductList from "./components/ProductList";
-import ViewProduct from "./components/ViewProduct";
-import '/node_modules/react-toastify/dist/ReactToastify.min.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Cart from "./components/Cart";
+// import AddProducts from "./components/AddProducts";
+import Dashboard from "./components/Dashboard";
 
+import Home from "./components/Home";
+import HomeMenu from "./components/HomeMenu";
+import Login from "./components/Login";
+import Register from "./components/Register";
+
+import "/node_modules/react-toastify/dist/ReactToastify.min.css";
 
 function App() {
   return (
     <div className="">
-      <ToastContainer >
-        <BrowserRouter>
-          <Routes>
-            <Route path="/prouductlist" exact element={<ProductList />} />
-
-            <Route path="/" exact element={<AddProducts />} />
-            <Route path="/viewproduct" element={<ViewProduct />} />
-          </Routes>
-        </BrowserRouter>
-      </ToastContainer>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home />}>
+            <Route path="/" exact element={<HomeMenu />} />
+            <Route path="cart" element={<Cart />} />
+            {/* <Route path="/" exact element={<AddProducts />} /> */}
+          </Route>
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
