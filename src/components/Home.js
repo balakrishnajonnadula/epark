@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div>
       <Header />
-     
       {/* <nav>
         <Link to='/'>Add </Link>
       </nav> */}

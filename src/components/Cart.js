@@ -1,7 +1,9 @@
-import React from "react";
 import "../styles/cart.css";
+import React from "react";
 const Cart = () => {
-  return <div>EPark Cart..?</div>;
+  return (
+    <div></div>
+  );
 };
 
 export default Cart;

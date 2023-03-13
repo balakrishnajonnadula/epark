@@ -20,6 +20,7 @@ const ProductList = () => {
     fetchPost();
   }, []);
   return <div>Hello</div>;
+  
 };
 
 export default ProductList;

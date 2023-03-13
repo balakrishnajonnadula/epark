@@ -11,21 +11,21 @@ const HomeMenu = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/smartwatch-banner_23850478-e1e8-4dd6-b994-6a1659e9a3fe_1600x.jpg?v=1677938442"
+              src="https://www.free-css.com/assets/files/free-css-templates/preview/page286/deni/assets/images/product-img.png"
               class="d-block w-100"
               alt=""
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ezgif-4-e6f62730cc_1600x.gif?v=1677752123"
+              src="https://www.free-css.com/assets/files/free-css-templates/preview/page283/ninom/assets/images/slider-img.jpg"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/999-Store-Desktop_1_1600x.jpg?v=1677239714FF"
+              src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/0/AmazonStores/A21TJRUUN4KGV/f5c75ce073d42b388dec5ea57952d5f3.w3000.h600._CR0%2C0%2C3000%2C600_SX1500_.png"
               class="d-block w-100"
               alt="..."
             />
